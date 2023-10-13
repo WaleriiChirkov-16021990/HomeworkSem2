@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.task3.BackendDeveloper;
 import org.example.task3.Developer;
 import org.example.task3.FrontendDeveloper;
 import org.example.task3.FullstackDeveloper;
@@ -18,6 +19,13 @@ public class Main {
         developer.developGUI();
         developer.developServer();
 
+        Developer developer2 = new BackendDeveloper();
+        developer2.developGUI();
+        developer2.developServer();
+
+        Developer developer3 = new FullstackDeveloper();
+        developer3.developGUI();
+        developer3.developServer();
 
     }
 }
